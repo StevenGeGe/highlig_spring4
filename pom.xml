@@ -36,6 +36,15 @@
             <version>5.2.4.RELEASE</version>
         </dependency>
 
+        <!--增加对web项目的支持-->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.2.4.RELEASE</version>
+        </dependency>
+
+
         <!--aspectj 支持-->
         <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
         <dependency>
