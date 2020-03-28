@@ -20,5 +20,4 @@ public class WebInit implements WebApplicationInitializer {
         container.setInitParameter("spring.profiles.default", "dev");
     }
 
-
 }
