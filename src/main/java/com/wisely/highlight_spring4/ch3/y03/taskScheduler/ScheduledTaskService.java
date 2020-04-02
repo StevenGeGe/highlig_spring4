@@ -12,7 +12,7 @@ import java.util.Date;
  * @Author: Yong
  * @Date: 2020/4/2 11:28
  * @Version 1.0
- * @PACKAGE_NAME : com.wisely.highlight_spring4.ch3.y03.taskScheeduler
+ * @PACKAGE_NAME : com.wisely.highlight_spring4.ch3.y03.taskScheduler
  **/
 @Service
 public class ScheduledTaskService {
