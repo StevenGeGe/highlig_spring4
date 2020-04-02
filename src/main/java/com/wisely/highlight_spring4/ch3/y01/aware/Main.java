@@ -1,4 +1,4 @@
-package com.wisely.highlight_spring4.ch2.y06.aware;
+package com.wisely.highlight_spring4.ch3.y01.aware;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

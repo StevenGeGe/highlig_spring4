@@ -1,4 +1,4 @@
-package com.wisely.highlight_spring4.ch2.y07.taskexecutor;
+package com.wisely.highlight_spring4.ch3.y02.taskexecutor;
 
 /**
  * Created by IntelliJ IDEA.
@@ -14,8 +14,6 @@ import org.springframework.context.annotation.Configuration;
 
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
-import org.springframework.scheduling.annotation.EnableAsync;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
@@ -29,7 +27,7 @@ import java.util.concurrent.Executor;
  */
 
 @Configuration
-@ComponentScan("com.wisely.highlight_spring4.ch2.y07.taskexecutor")
+@ComponentScan("com.wisely.highlight_spring4.ch3.y02.taskexecutor")
 //@EnableScheduling  //1
 //@EnableAsync //1 //会报错
 public class TaskExecutorConfig implements AsyncConfigurer {

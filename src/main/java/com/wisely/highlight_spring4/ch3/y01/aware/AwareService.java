@@ -1,4 +1,4 @@
-package com.wisely.highlight_spring4.ch2.y06.aware;
+package com.wisely.highlight_spring4.ch3.y01.aware;
 
 /**
  * Created by IntelliJ IDEA.
@@ -44,7 +44,7 @@ public class AwareService implements BeanNameAware, ResourceLoaderAware {  //1
     public void outputResult() {
         System.out.println("Bean 的名称为 ： " + beanName);
         Resource resource =
-                resourceLoader.getResource("classpath:com/wisely/highlight_spring4/ch2/y06/aware/AwareTest.txt");
+                resourceLoader.getResource("classpath:com/wisely/highlight_spring4/ch3/y01/aware/AwareTest.txt");
         try {
             System.out.println("ResourceLoader 加载的文件内容为：" + IOUtils.toString(resource.getInputStream()));  //4
         } catch (IOException e) {

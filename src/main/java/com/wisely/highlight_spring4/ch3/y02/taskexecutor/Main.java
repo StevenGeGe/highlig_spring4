@@ -1,4 +1,4 @@
-package com.wisely.highlight_spring4.ch2.y07.taskexecutor;
+package com.wisely.highlight_spring4.ch3.y02.taskexecutor;
 
 /**
  * Created by IntelliJ IDEA.
