@@ -1,5 +1,6 @@
 package com.wisely.highlight_spring4.ch3.y03.taskScheduler;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -39,5 +40,6 @@ public class ScheduledTaskService {
     public void fixTmeExecution() {
         System.out.println("在指定时间 " + dateFormat.format(new Date()) + "执行");
     }
+
 
 }

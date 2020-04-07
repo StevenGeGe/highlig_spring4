@@ -3,6 +3,7 @@ package com.wisely.highlight_spring4.ch3.y03.taskScheduler;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.web.WebApplicationInitializer;
 
 /**
  * Created by IntelliJ IDEA.
