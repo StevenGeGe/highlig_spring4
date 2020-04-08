@@ -9,6 +9,8 @@ package com.wisely.highlight_spring4.ch3.y04.conditional;
  * @PACKAGE_NAME : com.wisely.highlight_spring4.ch3.y04.conditional
  **/
 
+import org.springframework.stereotype.Service;
+
 /**
  * 接口
  * <p>

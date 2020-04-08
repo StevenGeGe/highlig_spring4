@@ -1,11 +1,8 @@
 package com.wisely.highlight_spring4.ch3.y04.conditional;
 
+import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
-
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
 
 /**
  * Created by IntelliJ IDEA.
@@ -21,42 +18,8 @@ import java.util.concurrent.locks.Condition;
  */
 public class WindowsCondition implements Condition {
 
-    public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata metadata) {
-        return conditionContext.getEnvironment().getProperty("os.name").contains("Windows");
+    public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        return context.getEnvironment().getProperty("os.name").contains("Windows");
     }
 
-    @Override
-    public void await() throws InterruptedException {
-
-    }
-
-    @Override
-    public void awaitUninterruptibly() {
-
-    }
-
-    @Override
-    public long awaitNanos(long nanosTimeout) throws InterruptedException {
-        return 0;
-    }
-
-    @Override
-    public boolean await(long time, TimeUnit unit) throws InterruptedException {
-        return false;
-    }
-
-    @Override
-    public boolean awaitUntil(Date deadline) throws InterruptedException {
-        return false;
-    }
-
-    @Override
-    public void signal() {
-
-    }
-
-    @Override
-    public void signalAll() {
-
-    }
 }
