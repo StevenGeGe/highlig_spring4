@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
  * 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)
  * 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
  * 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1126)
- * 	at com.wisely.highlight_spring4.ch1.y01.di.Main.main(Main.java:27)
+ * 	at com.wisely.highlight_spring4.ch1.y01.di.Main.main(DemoBeanIntegrationTests.java:27)
  *
  * */
 
